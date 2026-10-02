@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Portal | Assignments</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page="assignments">
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="brand-wrap">
+          <div class="brand-mark">S</div>
+          <div>
+            <p class="eyebrow">Student</p>
+            <h1>Portal</h1>
+          </div>
+        </div>
+
+        <nav class="nav" aria-label="Sidebar navigation">
+          <a class="nav-item" href="index.html"><span>Overview</span><span class="nav-badge">3</span></a>
+          <a class="nav-item" href="courses.html"><span>Courses</span></a>
+          <a class="nav-item active" href="assignments.html"><span>Assignments</span></a>
+          <a class="nav-item" href="grades.html"><span>Grades</span></a>
+          <a class="nav-item" href="calendar.html"><span>Calendar</span></a>
+          <a class="nav-item" href="resources.html"><span>Resources</span></a>
+        </nav>
+
+        <div class="support-card">
+          <p class="support-label">Support</p>
+          <h3>Writing center</h3>
+          <p>Book a review session for essays and lab reports.</p>
+        </div>
+      </aside>
+
+      <main class="main-panel">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow text-soft">Due this week</p>
+            <h2>Assignments</h2>
+          </div>
+          <div class="topbar-actions">
+            <button class="ghost-button" type="button">Filter</button>
+            <button class="primary-button" type="button">+ New assignment</button>
+          </div>
+        </header>
+
+        <section class="content-grid single-page">
+          <div class="main-column">
+            <div class="panel-header">
+              <h3>Priority tasks</h3>
+              <a href="#">View all</a>
+            </div>
+
+            <div class="schedule-list">
+              <div class="schedule-item">
+                <div class="time-block"><strong>Tue</strong><span>10/06</span></div>
+                <div>
+                  <h4>Data Modeling Project</h4>
+                  <p>Milestone report • 87% complete</p>
+                </div>
+              </div>
+
+              <div class="schedule-item">
+                <div class="time-block"><strong>Wed</strong><span>10/07</span></div>
+                <div>
+                  <h4>Biology Lab Notebook</h4>
+                  <p>Upload complete lab reflection</p>
+                </div>
+              </div>
+
+              <div class="schedule-item">
+                <div class="time-block"><strong>Thu</strong><span>10/08</span></div>
+                <div>
+                  <h4>Essay Draft</h4>
+                  <p>Academic Writing • Peer review checklist</p>
+                </div>
+              </div>
+
+              <div class="schedule-item">
+                <div class="time-block"><strong>Fri</strong><span>10/09</span></div>
+                <div>
+                  <h4>Reading Summary</h4>
+                  <p>Modern History • 500 words minimum</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <aside class="side-column">
+            <div class="panel-header">
+              <h3>Progress</h3>
+              <a href="#">Insights</a>
+            </div>
+            <div class="stat-card">
+              <div class="stat-top"><span class="stat-label">Submitted</span><span class="trend positive">+12%</span></div>
+              <strong>7/9</strong>
+              <p>Assignments completed so far</p>
+            </div>
+            <div class="stat-card" style="margin-top: 16px;">
+              <div class="stat-top"><span class="stat-label">Average score</span><span class="trend neutral">A</span></div>
+              <strong>92%</strong>
+              <p>Across all current assignments</p>
+            </div>
+          </aside>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

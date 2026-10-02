@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Portal | Courses</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page="courses">
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="brand-wrap">
+          <div class="brand-mark">S</div>
+          <div>
+            <p class="eyebrow">Student</p>
+            <h1>Portal</h1>
+          </div>
+        </div>
+
+        <nav class="nav" aria-label="Sidebar navigation">
+          <a class="nav-item" href="index.html"><span>Overview</span><span class="nav-badge">3</span></a>
+          <a class="nav-item active" href="courses.html"><span>Courses</span></a>
+          <a class="nav-item" href="assignments.html"><span>Assignments</span></a>
+          <a class="nav-item" href="grades.html"><span>Grades</span></a>
+          <a class="nav-item" href="calendar.html"><span>Calendar</span></a>
+          <a class="nav-item" href="resources.html"><span>Resources</span></a>
+        </nav>
+
+        <div class="support-card">
+          <p class="support-label">Academic advisor</p>
+          <h3>Dr. Elena Brooks</h3>
+          <p>Office Hours: Tue & Thu • 2:00 PM</p>
+        </div>
+      </aside>
+
+      <main class="main-panel">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow text-soft">Academic planning</p>
+            <h2>Course schedule</h2>
+          </div>
+          <div class="topbar-actions">
+            <button class="ghost-button" type="button">Download schedule</button>
+            <button class="primary-button" type="button">+ Add course</button>
+          </div>
+        </header>
+
+        <section class="content-grid single-page">
+          <div class="main-column">
+            <div class="panel-header">
+              <h3>Current courses</h3>
+              <a href="#">Spring 2026</a>
+            </div>
+
+            <div class="courses-grid">
+              <article class="course-card">
+                <div class="course-meta"><span class="course-code">BIO 220</span><span class="course-status">Live</span></div>
+                <h4>Cell Biology</h4>
+                <p>Lecture notes and lab prep are updated for Friday.</p>
+                <div class="course-progress"><div class="progress-labels"><span>Progress</span><span>91%</span></div><div class="progress-bar"><span style="width: 91%"></span></div></div>
+              </article>
+
+              <article class="course-card">
+                <div class="course-meta"><span class="course-code">MTH 310</span><span class="course-status warning">Needs review</span></div>
+                <h4>Data Modeling</h4>
+                <p>Project milestone due Thursday with peer feedback.</p>
+                <div class="course-progress"><div class="progress-labels"><span>Progress</span><span>76%</span></div><div class="progress-bar"><span style="width: 76%"></span></div></div>
+              </article>
+
+              <article class="course-card">
+                <div class="course-meta"><span class="course-code">ENG 210</span><span class="course-status">Live</span></div>
+                <h4>Academic Writing</h4>
+                <p>Peer response workshop starts next Tuesday at noon.</p>
+                <div class="course-progress"><div class="progress-labels"><span>Progress</span><span>88%</span></div><div class="progress-bar"><span style="width: 88%"></span></div></div>
+              </article>
+
+              <article class="course-card">
+                <div class="course-meta"><span class="course-code">PSY 180</span><span class="course-status">Live</span></div>
+                <h4>Intro to Psychology</h4>
+                <p>Reading reflection and discussion board are ready to submit.</p>
+                <div class="course-progress"><div class="progress-labels"><span>Progress</span><span>84%</span></div><div class="progress-bar"><span style="width: 84%"></span></div></div>
+              </article>
+
+              <article class="course-card">
+                <div class="course-meta"><span class="course-code">HIS 245</span><span class="course-status warning">Needs review</span></div>
+                <h4>Modern History</h4>
+                <p>Research outline is due this Friday with citation check.</p>
+                <div class="course-progress"><div class="progress-labels"><span>Progress</span><span>69%</span></div><div class="progress-bar"><span style="width: 69%"></span></div></div>
+              </article>
+
+              <article class="course-card">
+                <div class="course-meta"><span class="course-code">ART 150</span><span class="course-status">Live</span></div>
+                <h4>Design Studio</h4>
+                <p>Portfolio presentation scheduled for next Thursday morning.</p>
+                <div class="course-progress"><div class="progress-labels"><span>Progress</span><span>93%</span></div><div class="progress-bar"><span style="width: 93%"></span></div></div>
+              </article>
+            </div>
+          </div>
+
+          <aside class="side-column">
+            <div class="panel-header">
+              <h3>Checklist</h3>
+              <a href="#">Today</a>
+            </div>
+            <ul class="announcement-list">
+              <li><span class="dot blue"></span><div><strong>Lab notebook</strong><p>Upload by 5:00 PM.</p></div></li>
+              <li><span class="dot green"></span><div><strong>Reading summary</strong><p>Complete chapter 7 response.</p></div></li>
+              <li><span class="dot purple"></span><div><strong>Peer review</strong><p>Return feedback before class.</p></div></li>
+            </ul>
+          </aside>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
